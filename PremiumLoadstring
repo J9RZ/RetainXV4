@@ -1,0 +1,13 @@
+getgenv().Settings = {
+	Host = {"HostName","HostName2"},
+	Prefix = "/",
+	FPS_CAP = 10,
+}
+getgenv().Alts = {
+	Alt1 = "Alt1",
+	Alt2 = "Alt2",
+	Alt3 = "Alt3",
+	Alt4 = "Alt4",
+	Alt5 = "Alt5",
+}
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Joshh-z/RetainXV4/main/Altcontrol', true))()
